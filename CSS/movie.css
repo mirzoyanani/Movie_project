@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    border: none;
+    
+}
+.moviebackround{
+    border: none;
+    height: 100vh;
+    position: relative;    
+}
+.moviePic{
+    border:2px solid;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.moviePic:hover{
+    transform: scale(1.1);
+    transition: all ease  1.5s;
+}
+.aboutMovie{
+    border:15px solid black;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+    flex-direction: column;
+    opacity: 0.8;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.modal{
+    border: 4px solid rgb(6, 6, 6);
+    width: 990px;
+    height: 600px;
+    position: absolute;
+    top: 550px;
+    left: -1300px;
+    z-index: 2;
+    background-color: rgb(18, 20, 21);
+    overflow: hidden;
+    transition: all ease  1.5s;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvhrUYiP7TN4lZjh2m1LEvN2Ml1qummX9vNQ&usqp=CAU'); 
+    background-size: 800px 550px;
+}
+.videoDiv{
+    position: relative;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvhrUYiP7TN4lZjh2m1LEvN2Ml1qummX9vNQ&usqp=CAU'); 
+    background-position: center; 
+}
+.closeIcon{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all ease  1.5s;
+    z-index: 2;
+}
+#playIcon{
+    position: absolute;
+   font-size: 60px;
+    top: 70px;
+    left: 60px;
+    color: red;
+}
+.title{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 25px;
+}
+.about{
+       color:antiquewhite;
+       font-weight: bold;
+}
+.popHumansSlider{
+    border:2px solid;
+    height: 300px;
+    margin: 15px;
+}
+.trailersSlider{
+    border:2px solid;
+    height: 200px;
+    margin: 15px;
+}
+.movBack{
+    width:100%;
+    height:100%;
+}
+.posterBack{
+    width:100%;
+    height:100%;
+}
+.popHumansSlider{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+  background-color: black;
+}       
+.trailersSlider{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    background-color: rgb(6, 5, 5);
+}
+.prev{
+    border: 2px solid;
+    width:60px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+}
+.next{
+    border: 2px solid;
+    width: 60px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+
+}
+.prevTRailer{
+    border: 2px solid;
+    width:60px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+
+}
+.nextTrailer{
+    border: 2px solid;
+    width: 60px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+}
+.forslider{
+    border: none;
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.forslider1{
+    border: none;
+    width: 1200px;
+    height: 200px;
+    overflow: hidden;
+}
+.slider-line{
+    height:300px;
+    border: none;
+   display: flex;
+   align-items: center;
+    position: relative;
+    left:0;
+    transition: all ease  1.5s;
+}
+.slider-line1{
+    height: 200px;
+    border: none;
+   display: flex;
+   align-items: center;
+    position: relative;
+    left:0;
+    transition: all ease  1.5s;
+}
+.imgs{
+    width:200px;
+    border: none; 
+} 
+iframe{
+  width:100%;
+  height: 100%;
+}
+.videoImg{
+    height: 200px;
+    width: 200px;
+}
